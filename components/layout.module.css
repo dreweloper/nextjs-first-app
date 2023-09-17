@@ -1,9 +1,5 @@
-@mixin maxWidth($max-w){
-  max-width: $max-w;
-}
-
 .container {
-  @include maxWidth(36rem);
+  max-width: 36rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }
